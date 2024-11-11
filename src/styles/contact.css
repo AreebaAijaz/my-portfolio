@@ -1,0 +1,112 @@
+.cntct-section {
+    height: 500px;
+  }
+  
+  .cntct-main {
+    display: flex;
+  }
+  
+  .cntct-text {
+    margin-left: 120px;
+  }
+  
+  .cntct-text h1 {
+    font-size: 50px;
+  }
+  
+  .cntct-text p {
+    max-width: 300px;
+  }
+  
+  .cntct-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+  }
+  
+  .me {
+    color: rgb(137 , 93 , 175);
+  }
+  
+  .info {
+    margin: 20px;
+  }
+  .cntct-text .icon{
+    position: relative;
+    right: 6px;
+  }
+  .cntct-form form {
+    width: 100%;
+    max-width: 400px; /* Reduced max width to make inputs a bit shorter */
+  }
+  
+  .cntct-form input,
+  .cntct-form textarea,
+  .cntct-form button { /* Added button styling */
+    width: 120%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  .cntct-form input::placeholder,
+  .cntct-form textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .cntct-form button {
+    background-color: rgb(137 , 93 , 175); /* Blue background for the button */
+    color: #fff; /* White text */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cntct-form button:hover {
+    background-color: rgb(40, 8, 70); /* Darker blue on hover */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 1024px) {
+    .cntct-section {
+      height: 700px;
+    }
+  
+    .cntct-main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .cntct-text {
+      margin: 20px 0px 20px 30px;
+    }
+  
+    .cntct-form {
+      margin-left: 60px;
+    }
+    .cntct-form input, .cntct-form textarea, .cntct-form button{
+        width: 80%;
+    }
+  
+  
+    .cntct-main h1 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+  
+    .cntct-main h3 {
+      font-size: 20px;
+      font-weight: 200;
+    }
+  
+    .cntct-main p {
+      font-size: 12px;
+    }
+  }
+  

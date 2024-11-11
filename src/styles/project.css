@@ -1,0 +1,48 @@
+.project-section{
+    height: 700px;
+    padding-top: 40px;
+}
+.project-main{
+    display: flex;
+}
+.content{
+    margin: 20px 75px;
+}
+ .div-txt{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+}
+.project-image{
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+.project-section h1{
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width:1024px){
+    .project-section{
+        height: 1100px;
+    }
+    .project-main{
+        flex-direction: column;
+    }
+    .content{
+        margin: 10px 0 4px 60px;
+    }
+    .image-container{
+    }
+    .project-section h1{
+        font-size: 30px;
+        font-weight: 400px;
+        text-align: center;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+    }
+    
+    
+}

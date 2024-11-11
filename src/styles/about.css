@@ -1,0 +1,51 @@
+.abt-section{
+    height: 600px;
+}
+
+ .abt-main h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 20px 40px 20px;
+} 
+ .abt-main p{
+    text-align: center;
+    color: gray;
+}
+ .text{
+    height: 300px;
+    width: 50%;
+}
+.abt-img{
+    height: 300px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0 0 120px;
+}
+.abt-main{
+    display: flex;
+    margin-top: 200px;
+    padding-top: 40px;
+} 
+.me{
+    color: rgb(137 , 93 , 175);
+}
+
+
+@media (max-width:1024px){
+    .abt-section{
+        height: 400px;
+    }
+    .abt-img{
+        display: none;
+    }
+    .text{
+        width: 100%;
+        margin: 10px 30px 20px;
+        font-size: 9px;
+    }
+}
+
